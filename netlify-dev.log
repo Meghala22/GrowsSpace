@@ -1,0 +1,841 @@
+
+> growspace-booking-system@1.0.0 dev:full
+> netlify dev
+
+⬥ Injecting environment variable values for all scopes
+⬥ Injected .env.local file env vars: VITE_API_BASE_URL, DATABASE_URL, DATABASE_SSL, JWT_SECRET, JWT_EXPIRES_IN
+⬥ Setting up local dev server
+
+⬥ Starting framework dev server
+
+> growspace-booking-system@1.0.0 dev
+> vite --config frontend/vite.config.ts
+
+
+  VITE v7.3.2  ready in 392 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+
+   ╭─────────────────────── ⬥  ────────────────────────╮
+   │                                                   │
+   │   Local dev server ready: http://localhost:8888   │
+   │                                                   │
+   ╰───────────────────────────────────────────────────╯
+
+⬥ Loaded function api
+⬥ Rewrote URL to /.netlify/functions/api/auth/register
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/register
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 744 ms.
+Response with status 201 in 1493 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 201 in 728 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 609 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 87 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 145 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 75 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 79 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Response with status 200 in 788 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 409 in 1373 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-27
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-27
+Response with status 200 in 670 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 201 in 646 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-27
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-27
+Response with status 200 in 174 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 409 in 478 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 409 in 425 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 409 in 1426 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-30
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-30
+Response with status 200 in 733 ms.
+1:45:03 PM [vite] (client) hmr update /src/pages/BookingPage.tsx, /src/index.css
+1:45:03 PM [vite] (client) hmr update /src/pages/BookingPage.tsx, /src/index.css
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 1036 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 139 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 841 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 809 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 54 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 109 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 130 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 138 ms.
+1:50:40 PM [vite] (client) hmr update /src/pages/BookingPage.tsx, /src/index.css
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 693 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 43 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 822 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 91 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 162 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 124 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 140 ms.
+1:57:31 PM [vite] (client) hmr update /src/pages/BookingPage.tsx, /src/index.css
+1:59:42 PM [vite] (client) page reload src/pages/BookingPage.tsx
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 716 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 99 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 114 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 83 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 156 ms.
+Response with status 200 in 767 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Response with status 200 in 52 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 470 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 86 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 113 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 43 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 42 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Response with status 200 in 46 ms.
+Response with status 200 in 286 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Response with status 200 in 115 ms.
+Response with status 200 in 114 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-30
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-30
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Response with status 200 in 125 ms.
+Response with status 200 in 114 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-30
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-30
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Response with status 200 in 49 ms.
+Response with status 200 in 81 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 539 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 133 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 165 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 85 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 466 ms.
+Response with status 200 in 488 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 47 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-24
+Response with status 200 in 793 ms.
+Response with status 200 in 1358 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Response with status 200 in 212 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/bookings
+Response with status 201 in 1328 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-04-25
+Response with status 200 in 713 ms.
+Response with status 200 in 842 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-05-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-05-25
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-06-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-06-25
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-07-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-07-25
+Response with status 200 in 715 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-08-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-08-25
+Response with status 200 in 657 ms.
+Response with status 200 in 67 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-09-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-09-25
+Response with status 200 in 542 ms.
+Response with status 200 in 77 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-10-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-10-25
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-11-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-11-25
+Response with status 200 in 147 ms.
+Response with status 200 in 68 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-12-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2026-12-25
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-01-25
+Response with status 200 in 166 ms.
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-01-25
+Response with status 200 in 98 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-02-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-02-25
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-03-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-03-25
+Response with status 200 in 159 ms.
+Response with status 200 in 68 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-04-25
+Response with status 200 in 58 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-05-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-05-25
+Response with status 200 in 43 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-06-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-06-25
+Response with status 200 in 52 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-07-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-07-25
+Response with status 200 in 44 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-08-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-08-25
+Response with status 200 in 44 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-09-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-09-25
+Response with status 200 in 42 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-10-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-10-25
+Response with status 200 in 46 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-11-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-11-25
+Response with status 200 in 44 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-12-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-12-25
+Response with status 200 in 45 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-12-08
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=3b71673c-6f13-4e28-87ec-41fc119f7de8&date=2027-12-08
+Response with status 200 in 129 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 322 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 42 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 46 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 41 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 355 ms.
+Response with status 200 in 358 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 45 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 731 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 96 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 150 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 82 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 844 ms.
+Response with status 200 in 843 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 152 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 47 ms.
+Response with status 200 in 52 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 52 ms.
+Response with status 200 in 47 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 1162 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 789 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 963 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 1353 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 852 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1086 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 1019 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 469 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1039 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 45 ms.
+Response with status 200 in 346 ms.
+Response with status 200 in 359 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 109 ms.
+Response with status 200 in 106 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 308 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 52 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 400 ms.
+Response with status 200 in 410 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 47 ms.
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Reloading function api...
+⬥ Reloaded function api
+2:51:31 PM [vite] (client) hmr update /src/contexts/AuthContext.tsx, /src/index.css
+2:51:31 PM [vite] (client) hmr invalidate /src/contexts/AuthContext.tsx Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:51:31 PM [vite] (client) page reload src/contexts/AuthContext.tsx
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 857 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 81 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 58 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 39 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Response with status 200 in 110 ms.
+Response with status 200 in 776 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 52 ms.
+2:51:40 PM [vite] (client) hmr update /src/pages/LoginPage.tsx, /src/index.css
+2:51:47 PM [vite] (client) hmr update /src/pages/RegisterPage.tsx, /src/index.css
+2:51:55 PM [vite] (client) hmr update /src/pages/HomeRedirectPage.tsx, /src/index.css
+2:52:05 PM [vite] (client) hmr update /src/pages/DashboardPage.tsx, /src/index.css
+2:52:17 PM [vite] (client) hmr update /src/layouts/AppShell.tsx, /src/index.css
+2:52:27 PM [vite] (client) hmr update /src/pages/AdminPage.tsx, /src/index.css
+2:54:33 PM [vite] (client) page reload src/pages/AdminPage.tsx
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 315 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 47 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 43 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 39 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 385 ms.
+Response with status 200 in 433 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 50 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1162 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Response with status 200 in 962 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 772 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 83 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 114 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 82 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 491 ms.
+Response with status 200 in 4588 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 43 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 820 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 74 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 156 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 71 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 744 ms.
+Response with status 200 in 744 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 98 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 554 ms.
+Response with status 200 in 546 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 593 ms.
+Response with status 200 in 603 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+Response with status 200 in 81 ms.
+Response with status 200 in 89 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Response with status 200 in 66 ms.
+Response with status 200 in 64 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 118 ms.
+Response with status 200 in 75 ms.
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Rewrote URL to /.netlify/functions/api/admin/slots
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/admin/slots
+Response with status 201 in 1151 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 443 ms.
+Response with status 200 in 449 ms.
+Response with status 200 in 465 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 650 ms.
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Response with status 200 in 686 ms.
+⬥ Reloading function api...
+⬥ Failed to load function api: Build failed with 1 error:
+backend/src/server/controllers/serviceController.ts:3:9: ERROR: No matching export in "backend/src/server/validation/schemas.ts" for import "adminServiceSchema"
+⬥ Reloading function api...
+⬥ Failed to load function api: Build failed with 2 errors:
+backend/src/server/controllers/adminController.ts:5:9: ERROR: No matching export in "backend/src/server/validation/schemas.ts" for import "updateUserRoleSchema"
+backend/src/server/controllers/serviceController.ts:3:9: ERROR: No matching export in "backend/src/server/validation/schemas.ts" for import "adminServiceSchema"
+⬥ Reloading function api...
+⬥ Reloaded function api
+⬥ Reloading function api...
+⬥ Reloaded function api
+3:22:25 PM [vite] (client) page reload src/pages/AdminPage.tsx
+3:25:39 PM [vite] (client) page reload src/pages/AdminPage.tsx
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 1137 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 73 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 306 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Response with status 200 in 357 ms.
+Response with status 200 in 355 ms.
+Response with status 200 in 391 ms.
+Response with status 200 in 352 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 54 ms.
+Response with status 200 in 113 ms.
+Response with status 200 in 108 ms.
+Response with status 200 in 112 ms.
+Response with status 200 in 105 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 117 ms.
+Response with status 200 in 115 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 2730 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Response with status 200 in 74 ms.
+Response with status 200 in 617 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Response with status 200 in 780 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 7576 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 150 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 1185 ms.
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 1541 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 94 ms.
+Response with status 200 in 761 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 75 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 82 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 72 ms.
+Response with status 200 in 1109 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-24
+Response with status 200 in 728 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-25
+Response with status 200 in 761 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 916 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 401 in 1598 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1577 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 253 ms.
+Response with status 200 in 677 ms.
+Response with status 200 in 683 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 753 ms.
+Response with status 200 in 835 ms.
+Response with status 200 in 960 ms.
+Response with status 200 in 46 ms.
+Response with status 200 in 64 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Response with status 200 in 89 ms.
+Response with status 200 in 80 ms.
+Response with status 200 in 78 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 71 ms.
+Response with status 200 in 71 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/slots
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/admin/slots
+Response with status 201 in 943 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 562 ms.
+Response with status 200 in 586 ms.
+Response with status 200 in 626 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1630 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 42 ms.
+Response with status 200 in 757 ms.
+Response with status 200 in 779 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 118 ms.
+Response with status 200 in 129 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 135 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 72 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 166 ms.
+Response with status 200 in 2649 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47&date=2026-04-23
+Response with status 200 in 829 ms.
+Response with status 200 in 1461 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47&date=2026-04-24
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=413842e6-fbb2-4ffe-972e-0157db922d47&date=2026-04-24
+Response with status 200 in 129 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 65 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 84 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/login
+Request from ::ffff:127.0.0.1: POST /.netlify/functions/api/auth/login
+Response with status 200 in 1471 ms.
+⬥ Rewrote URL to /.netlify/functions/api/auth/me
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/auth/me
+Response with status 200 in 44 ms.
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Response with status 200 in 667 ms.
+Response with status 200 in 694 ms.
+Response with status 200 in 727 ms.
+Response with status 200 in 714 ms.
+Response with status 200 in 744 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/users
+⬥ Rewrote URL to /.netlify/functions/api/admin/services
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/overview
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/users
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/overview
+Response with status 200 in 117 ms.
+Response with status 200 in 137 ms.
+Response with status 200 in 82 ms.
+Response with status 200 in 183 ms.
+Response with status 200 in 82 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+⬥ Rewrote URL to /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/admin/bookings?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 88 ms.
+Response with status 200 in 87 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 703 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 158 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 104 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 81 ms.
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+⬥ Rewrote URL to /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/slots/available?serviceId=80e48c7a-b65d-44ad-aba7-59bcc856b962&date=2026-04-23
+Response with status 200 in 561 ms.
+Response with status 200 in 694 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 118 ms.
+⬥ Rewrote URL to /.netlify/functions/api/services
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/services
+Response with status 200 in 69 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 72 ms.
+⬥ Rewrote URL to /.netlify/functions/api/bookings/my
+Request from ::ffff:127.0.0.1: GET /.netlify/functions/api/bookings/my
+Response with status 200 in 99 ms.

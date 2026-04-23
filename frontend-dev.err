@@ -1,0 +1,128 @@
+[2m12:27:34 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:27:34 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:27:34 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:27:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:24546:20)
+[2m12:27:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:27:42 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+      at async viteTransformMiddleware (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:24546:20)
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)
+[2m12:28:32 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .html file format, or if it's an asset, add "**/*.html" to `assetsInclude` in your configuration.[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/megha/Downloads/GrowSpace/frontend/index.html[39m:16:28
+[33m  14 |        rel="stylesheet"
+  15 |      />
+  16 |      <title>GrowSpace</title>
+     |                              ^
+  17 |    </head>
+  18 |    <body class="bg-cream text-ink">[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29003:43)
+      at TransformPluginContext.error (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:29000:14)
+      at TransformPluginContext.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:27086:10)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:28801:14)
+      at async loadAndTransform (file:///C:/Users/megha/Downloads/GrowSpace/node_modules/vite/dist/node/chunks/config.js:22670:26)

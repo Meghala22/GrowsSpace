@@ -1,0 +1,122 @@
+[33m⠋[39m Waiting for framework dev server to be ready on port 5173
+[1G[33m⠙[39m Waiting for framework dev server to be ready on port 5173
+[1G[33m⠹[39m Waiting for framework dev server to be ready on port 5173
+[1G[33m⠸[39m Waiting for framework dev server to be ready on port 5173
+[32m√[39m framework dev server ready on port 5173
+(node:47068) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+API error ConflictError [AppError]: You have already booked this slot.
+    at C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\bookingService.ts:34:17
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at withTransaction (C:\Users\megha\Downloads\GrowSpace\backend\src\server\db\pool.ts:23:20)
+    at Object.create [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\bookingController.ts:9:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 409,
+  code: 'CONFLICT',
+  details: undefined
+}
+API error ConflictError [AppError]: You have already booked this slot.
+    at C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\bookingService.ts:34:17
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at withTransaction (C:\Users\megha\Downloads\GrowSpace\backend\src\server\db\pool.ts:23:20)
+    at Object.create [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\bookingController.ts:9:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 409,
+  code: 'CONFLICT',
+  details: undefined
+}
+API error ConflictError [AppError]: You have already booked this slot.
+    at C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\bookingService.ts:34:17
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at withTransaction (C:\Users\megha\Downloads\GrowSpace\backend\src\server\db\pool.ts:23:20)
+    at Object.create [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\bookingController.ts:9:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 409,
+  code: 'CONFLICT',
+  details: undefined
+}
+API error ConflictError [AppError]: You have already booked this slot.
+    at C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\bookingService.ts:34:17
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at withTransaction (C:\Users\megha\Downloads\GrowSpace\backend\src\server\db\pool.ts:23:20)
+    at Object.create [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\bookingController.ts:9:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 409,
+  code: 'CONFLICT',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\services\authService.ts:40:13)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\authController.ts:15:20)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\backend\src\server\app.ts:120:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
+X [ERROR] No matching export in "backend/src/server/validation/schemas.ts" for import "adminServiceSchema"
+
+    backend/src/server/controllers/serviceController.ts:3:9:
+      3 │ import { adminServiceSchema } from "../validation/schemas";
+        ╵          ~~~~~~~~~~~~~~~~~~
+
+X [ERROR] No matching export in "backend/src/server/validation/schemas.ts" for import "updateUserRoleSchema"
+
+    backend/src/server/controllers/adminController.ts:5:9:
+      5 │ import { updateUserRoleSchema } from "../validation/schemas";
+        ╵          ~~~~~~~~~~~~~~~~~~~~
+
+X [ERROR] No matching export in "backend/src/server/validation/schemas.ts" for import "adminServiceSchema"
+
+    backend/src/server/controllers/serviceController.ts:3:9:
+      3 │ import { adminServiceSchema } from "../validation/schemas";
+        ╵          ~~~~~~~~~~~~~~~~~~
+
+3:22:25 PM [vite] (client) Pre-transform error: Failed to load url /src/pages/AdminPage.tsx (resolved id: C:/Users/megha/Downloads/GrowSpace/frontend/src/pages/AdminPage.tsx) in C:/Users/megha/Downloads/GrowSpace/frontend/src/router.tsx. Does the file exist?
+API error UnauthorizedError [AppError]: Email or password is incorrect.
+    at Object.login (C:\Users\megha\Downloads\GrowSpace\backend\src\server\controllers\bookingController.ts:23:3)
+    at Object.login [as controller] (C:\Users\megha\Downloads\GrowSpace\backend\src\server\repositories\serviceRepository.ts:17:7)
+    at Object.<anonymous> (C:\Users\megha\Downloads\GrowSpace\.netlify\functions-serve\api\backend\functions\api.js:25767:14) {
+  statusCode: 401,
+  code: 'UNAUTHORIZED',
+  details: undefined
+}
