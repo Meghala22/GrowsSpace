@@ -1,12 +1,12 @@
 # GrowSpace
 
-GrowSpace is a production-ready full-stack booking platform for gardening workshops and plant-care stations. It is built for Netlify deployment, uses PostgreSQL for persistence, and protects booking integrity with transaction-based slot locking.
+GrowSpace is a production-ready full-stack booking platform for gardening workshops and plant-care stations. It is built with a shared server core that can run on Netlify or Vercel, uses PostgreSQL for persistence, and protects booking integrity with transaction-based slot locking.
 
 ## Stack
 
 - React + Vite + TypeScript
 - Tailwind CSS
-- Netlify Functions for REST APIs
+- Serverless REST APIs for Netlify and Vercel
 - PostgreSQL or Supabase Postgres
 - JWT authentication with `ADMIN` and `USER` roles
 - Zod validation and centralized API error handling
@@ -38,7 +38,7 @@ GrowSpace is a production-ready full-stack booking platform for gardening worksh
 
 ## Environment Variables
 
-Copy `.env.example` to `.env` for local configuration and add the same values in Netlify site settings:
+Copy `.env.example` to `.env` for local configuration and add the same values in your deployment provider's environment settings:
 
 ```bash
 VITE_API_BASE_URL=/api
@@ -48,7 +48,7 @@ JWT_SECRET=replace-this-with-a-long-random-secret
 JWT_EXPIRES_IN=7d
 ```
 
-For Supabase Postgres on Netlify, set `DATABASE_SSL=true`.
+For Supabase Postgres on Netlify or Vercel, set `DATABASE_SSL=true`.
 
 ## Database Setup
 
@@ -106,10 +106,10 @@ Local URLs:
 
 ## Deployment Notes
 
-- `netlify.toml` is configured for SPA routing and `/api/*` rewrites to the Netlify function entrypoint.
-- The frontend builds to `frontend/dist`.
-- Netlify bundles the TypeScript function from `backend/functions/api.ts`.
-- Set all required environment variables in Netlify before deploying.
+- `vercel.json` is configured to build the frontend into `frontend/dist` and serve the API from `api/[...route].ts`.
+- `netlify.toml` still supports the existing local Netlify flow and Netlify deployments through `backend/functions/api.ts`.
+- The backend request handling lives in `backend/src/server`, and both providers use thin adapters around that shared core.
+- Set all required environment variables in your deployment provider before deploying.
 
 ## Concurrency Model
 
@@ -137,6 +137,7 @@ Cancellation flow:
 
 ```text
 frontend/                   React SPA, Vite config, and Tailwind config
+api/[...route].ts           Vercel API route entrypoint
 backend/functions/api.ts    Netlify function entrypoint
 backend/src/server          Controllers, services, repositories, validation, and DB access
 backend/db                  PostgreSQL schema and seed files

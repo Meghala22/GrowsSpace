@@ -1,4 +1,3 @@
-import type { HandlerEvent } from "@netlify/functions";
 import type { Role } from "../../../shared/contracts";
 
 export interface AuthenticatedUser {
@@ -8,8 +7,22 @@ export interface AuthenticatedUser {
   role: Role;
 }
 
+export interface AppRequest {
+  method: string;
+  path: string;
+  rawUrl: string;
+  headers: Record<string, string | undefined>;
+  body: string | null;
+}
+
+export interface AppResponse {
+  statusCode: number;
+  headers: Record<string, string>;
+  body: string;
+}
+
 export interface RequestContext {
-  event: HandlerEvent;
+  request: AppRequest;
   method: string;
   path: string;
   params: Record<string, string>;

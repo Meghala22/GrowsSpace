@@ -1,4 +1,3 @@
-import type { Handler, HandlerEvent, HandlerResponse } from "@netlify/functions";
 import { adminController } from "./controllers/adminController";
 import { authController } from "./controllers/authController";
 import { bookingController } from "./controllers/bookingController";
@@ -7,9 +6,9 @@ import { slotController } from "./controllers/slotController";
 import { ForbiddenError, NotFoundError, UnauthorizedError } from "./errors";
 import { failure, ok, parseJsonBody, toAppError } from "./lib/http";
 import { verifyAuthToken } from "./lib/jwt";
-import type { RequestContext } from "./types";
+import type { AppRequest, AppResponse, RequestContext } from "./types";
 
-type Controller = (context: RequestContext) => Promise<HandlerResponse>;
+type Controller = (context: RequestContext) => Promise<AppResponse>;
 
 interface RouteDefinition {
   method: string;
@@ -97,16 +96,16 @@ const routes: RouteDefinition[] = [
   },
 ];
 
-function normalizePath(event: HandlerEvent) {
-  const sourcePath = event.path || event.rawUrl || "/";
+function normalizePath(request: AppRequest) {
+  const sourcePath = request.path || request.rawUrl || "/";
   return sourcePath
     .replace(/^\/\.netlify\/functions\/api/, "")
     .replace(/^\/api/, "")
     .replace(/\/+$/, "") || "/";
 }
 
-function getAuthUser(event: HandlerEvent) {
-  const authorization = event.headers.authorization || event.headers.Authorization;
+function getAuthUser(request: AppRequest) {
+  const authorization = request.headers.authorization;
   if (!authorization?.startsWith("Bearer ")) {
     throw new UnauthorizedError();
   }
@@ -115,21 +114,21 @@ function getAuthUser(event: HandlerEvent) {
   return verifyAuthToken(token);
 }
 
-function buildContext(event: HandlerEvent, route: RouteDefinition, match: RegExpMatchArray): RequestContext {
-  const path = normalizePath(event);
-  const url = new URL(event.rawUrl || `https://placeholder.dev${event.path}`);
+function buildContext(request: AppRequest, route: RouteDefinition, match: RegExpMatchArray): RequestContext {
+  const path = normalizePath(request);
+  const url = new URL(request.rawUrl || `https://placeholder.dev${request.path}`);
 
   const context: RequestContext = {
-    event,
-    method: event.httpMethod.toUpperCase(),
+    request,
+    method: request.method.toUpperCase(),
     path,
     params: match.groups ?? {},
     query: url.searchParams,
-    body: parseJsonBody(event.body),
+    body: parseJsonBody(request.body),
   };
 
   if (route.auth) {
-    context.user = getAuthUser(event);
+    context.user = getAuthUser(request);
   }
 
   if (route.admin && context.user?.role !== "ADMIN") {
@@ -139,9 +138,9 @@ function buildContext(event: HandlerEvent, route: RouteDefinition, match: RegExp
   return context;
 }
 
-async function routeRequest(event: HandlerEvent) {
-  const method = event.httpMethod.toUpperCase();
-  const path = normalizePath(event);
+async function routeRequest(request: AppRequest) {
+  const method = request.method.toUpperCase();
+  const path = normalizePath(request);
   const route = routes.find((candidate) => candidate.method === method && candidate.pattern.test(path));
 
   if (!route) {
@@ -153,14 +152,14 @@ async function routeRequest(event: HandlerEvent) {
     throw new NotFoundError("Endpoint not found.");
   }
 
-  const context = buildContext(event, route, match);
+  const context = buildContext(request, route, match);
   return route.controller(context);
 }
 
-export function createApiHandler(): Handler {
-  return async (event) => {
+export function createApiHandler() {
+  return async (request: AppRequest): Promise<AppResponse> => {
     try {
-      return await routeRequest(event);
+      return await routeRequest(request);
     } catch (error) {
       console.error("API error", error);
       return failure(toAppError(error));

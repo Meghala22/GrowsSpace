@@ -1,7 +1,7 @@
-import type { HandlerResponse } from "@netlify/functions";
 import { ZodError } from "zod";
 import { ApiFailure, ApiSuccess } from "../../../../shared/contracts";
 import { AppError, BadRequestError } from "../errors";
+import type { AppResponse } from "../types";
 
 function baseHeaders() {
   return {
@@ -10,7 +10,7 @@ function baseHeaders() {
   };
 }
 
-export function ok<T>(data: T, statusCode = 200): HandlerResponse {
+export function ok<T>(data: T, statusCode = 200): AppResponse {
   const payload: ApiSuccess<T> = {
     success: true,
     data,
@@ -23,7 +23,7 @@ export function ok<T>(data: T, statusCode = 200): HandlerResponse {
   };
 }
 
-export function failure(error: AppError): HandlerResponse {
+export function failure(error: AppError): AppResponse {
   const payload: ApiFailure = {
     success: false,
     error: {
