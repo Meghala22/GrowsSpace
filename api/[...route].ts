@@ -1,5 +1,7 @@
+import { createApiHandler } from "../backend/src/server/app";
 import type { AppRequest } from "../backend/src/server/types";
 const BODYLESS_METHODS = new Set(["GET", "HEAD"]);
+const handleRequest = createApiHandler();
 
 async function toAppRequest(request: Request): Promise<AppRequest> {
   const rawUrl = new URL(request.url);
@@ -16,11 +18,7 @@ async function toAppRequest(request: Request): Promise<AppRequest> {
 export default {
   async fetch(request: Request) {
     try {
-      const [{ createApiHandler }, appRequest] = await Promise.all([
-        import("../backend/src/server/app"),
-        toAppRequest(request),
-      ]);
-      const result = await createApiHandler()(appRequest);
+      const result = await handleRequest(await toAppRequest(request));
 
       return new Response(result.body, {
         status: result.statusCode,
