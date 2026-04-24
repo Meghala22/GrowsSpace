@@ -4,6 +4,7 @@ import { bookingController } from "./controllers/bookingController";
 import { serviceController } from "./controllers/serviceController";
 import { slotController } from "./controllers/slotController";
 import { ForbiddenError, NotFoundError, UnauthorizedError } from "./errors";
+import { ensureDatabaseReady } from "./db/bootstrap";
 import { failure, ok, parseJsonBody, toAppError } from "./lib/http";
 import { verifyAuthToken } from "./lib/jwt";
 import type { AppRequest, AppResponse, RequestContext } from "./types";
@@ -150,6 +151,10 @@ async function routeRequest(request: AppRequest) {
   const match = path.match(route.pattern);
   if (!match) {
     throw new NotFoundError("Endpoint not found.");
+  }
+
+  if (path !== "/health") {
+    await ensureDatabaseReady();
   }
 
   const context = buildContext(request, route, match);
