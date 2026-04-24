@@ -1,5 +1,5 @@
-import { createApiHandler } from "../backend/src/server/app";
-import type { AppRequest } from "../backend/src/server/types";
+import { createApiHandler } from "./_server/app";
+import type { AppRequest } from "./_server/types";
 const BODYLESS_METHODS = new Set(["GET", "HEAD"]);
 const handleRequest = createApiHandler();
 

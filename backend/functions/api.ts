@@ -1,6 +1,6 @@
 import type { Handler } from "@netlify/functions";
-import { createApiHandler } from "../src/server/app";
-import type { AppRequest } from "../src/server/types";
+import { createApiHandler } from "../../api/_server/app";
+import type { AppRequest } from "../../api/_server/types";
 
 const handleRequest = createApiHandler();
 
