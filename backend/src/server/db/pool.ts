@@ -3,20 +3,24 @@ import { serverConfig } from "../config";
 
 const globalPool = globalThis as typeof globalThis & { __growspacePool?: Pool };
 
-export const pool =
-  globalPool.__growspacePool ||
-  new Pool({
+function createPool() {
+  return new Pool({
     connectionString: serverConfig.databaseUrl(),
     ssl: serverConfig.useDatabaseSsl ? { rejectUnauthorized: false } : undefined,
     max: 10,
   });
+}
 
-if (!globalPool.__growspacePool) {
-  globalPool.__growspacePool = pool;
+function getPool() {
+  if (!globalPool.__growspacePool) {
+    globalPool.__growspacePool = createPool();
+  }
+
+  return globalPool.__growspacePool;
 }
 
 export async function withTransaction<T>(callback: (client: PoolClient) => Promise<T>) {
-  const client = await pool.connect();
+  const client = await getPool().connect();
 
   try {
     await client.query("BEGIN");
@@ -32,7 +36,7 @@ export async function withTransaction<T>(callback: (client: PoolClient) => Promi
 }
 
 export async function query<T extends QueryResultRow>(text: string, values: unknown[] = []) {
-  const result = await pool.query<T>(text, values);
+  const result = await getPool().query<T>(text, values);
   return result;
 }
 
